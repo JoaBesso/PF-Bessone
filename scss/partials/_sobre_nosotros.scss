@@ -1,0 +1,56 @@
+@use'./variables';
+
+.sobre_nosotros{
+
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:  variables.$main-color;
+
+    .quienes_somos{
+        background-color: rgb(236, 108, 34);
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    h1,p,h2{
+        color: #000;
+    }
+    p{
+        font-size: 16px;
+    }
+    .preguntas_frecuentes{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        background-color: variables.$secundario-color;
+
+        .acordion-preguntas-frecuentes{
+            font-size: 1.5em;
+
+            .btn-preg-frec{
+                color: #fff;
+                background-color:variables.$main-color;
+                font-size: .7em;
+            }
+
+            .respuesta{
+                background-color: rgb(236, 108, 34);
+            }
+        }
+    }
+}
+
+
+@media (max-width: 700px){
+    .sobre_nosotros{
+        max-width: 80%;
+        padding: 10px;
+
+        .quienes_somos{
+            font-size: 14px;
+            line-height: 1.3;
+        }
+    }
+    
+}

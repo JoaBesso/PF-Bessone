@@ -1,3 +1,5 @@
+@use'./variables';
+
 .row{
     flex-direction: row;
     align-content: normal;
@@ -13,7 +15,7 @@
         margin: 20px;
         border-radius: 6px;
         overflow: hidden;
-        background: rgb(236, 108, 34);
+        background: variables.$secundario-color;
         box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
         color: #fff;
         cursor: default;
