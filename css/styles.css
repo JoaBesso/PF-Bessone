@@ -104,6 +104,92 @@ body {
     margin: auto;
   }
 }
+.formulario {
+  background: #681f74;
+  color: #fff;
+  padding: 0 1.5em;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.formulario .contenenedor-formulario {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+.formulario .contenenedor-formulario .titulo {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 3em;
+}
+.formulario .contenenedor-formulario .contacto-general {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+.formulario .contenenedor-formulario .contacto-general .contacto-form {
+  background: #222222;
+}
+.formulario .contenenedor-formulario .contacto-general .contacto-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.formulario .contenenedor-formulario .contacto-general .contacto-form form .block {
+  grid-column: 1/3;
+}
+.formulario .contenenedor-formulario .contacto-general .contacto-form form p {
+  margin: 0;
+  padding: 1em;
+  font-size: 16px;
+}
+.formulario .contenenedor-formulario .contacto-general .contacto-form form button, .formulario .contenenedor-formulario .contacto-general .contacto-form form input, .formulario .contenenedor-formulario .contacto-general .contacto-form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: none;
+  color: #fff;
+  border-bottom: 1px solid #1758e4;
+}
+.formulario .contenenedor-formulario .contacto-general .contacto-form form button {
+  background: #1758e4;
+  color: #000;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+.formulario .contenenedor-formulario .contacto-general .contacto-form form button:hover, .formulario .contenenedor-formulario .contacto-general .contacto-form form button:focus {
+  background: rgba(9, 101, 238, 0.479);
+  transition: background-color 1s ease-out;
+  outline: none;
+}
+.formulario .contenenedor-formulario .contacto-general .contacto-info {
+  background: rgb(236, 108, 34);
+}
+.formulario .contenenedor-formulario .contacto-general .contacto-info h2, .formulario .contenenedor-formulario .contacto-general .contacto-info ul, .formulario .contenenedor-formulario .contacto-general .contacto-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+  font-size: 16px;
+}
+.formulario .contenenedor-formulario .contacto-general .contacto-info ul {
+  list-style: none;
+  padding: 0;
+}
+.formulario .contenenedor-formulario .contacto-general .contacto-info ul li {
+  padding: 0.3em;
+}
+
+@media (min-width: 700px) {
+  .formulario {
+    padding: 0 4rem;
+  }
+  .formulario .contacto-general {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .contacto-info h2, .contacto-info ul, .contacto-info p {
+    padding: 1em;
+    text-align: left;
+  }
+}
 .pie-pagina {
   width: 100%;
   background-color: #681f74;
