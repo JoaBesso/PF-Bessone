@@ -72,6 +72,9 @@ body {
   margin: auto;
   overflow: hidden;
 }
+.carrusel h1, .carrusel h2 {
+  font-size: 2.5rem;
+}
 .carrusel .carrusel-desliza {
   display: flex;
   animation: scroll 20s linear infinite;
@@ -199,10 +202,10 @@ body {
 
 .personalizados {
   margin: 0 auto;
-  background-color: rgba(199, 29, 241, 0.479);
+  background-color: rgb(236, 108, 34);
 }
 .personalizados .personalizados_borde_v {
-  border: 4px solid #681f74;
+  border: 4px solid #1758e4;
 }
 .personalizados .personalizados_borde_v .personalizado_encabezado {
   font-size: 2rem;

@@ -7,11 +7,12 @@
     padding: .5em;
 }
 .personalizados{
+
     margin: 0 auto;
-    background-color:  rgba(199, 29, 241, 0.479);
+    background-color:  variables.$secundario-color;
 
     .personalizados_borde_v{
-        border: 4px solid variables.$main-color;
+        border: 4px solid variables.$terciario-color;
 
         .personalizado_encabezado{
             font-size: 2rem;
